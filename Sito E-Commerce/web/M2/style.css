@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-apr-2016, 18.18.32
+    Author     : Michele Vargiu
+*/
+
+body
+{
+    background-color: grey
+}
+ul
+{
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+}
+p
+{
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+}
+h1
+{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+h2
+{
+    color: red;
+    border-bottom: 1px solid red;
+}
+h3
+{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+a:link
+{
+    color: blue;
+}
+a:visited
+{
+    color: red;
+}
+a:hover
+{
+    font-size: 14px;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+}
+
+#Cliente table, td, th
+{
+    border:1px solid;
+    border-collapse:collapse;
+    padding:5px 5px;
+}
+th
+{
+    background-color:white;
+}
+td
+{
+    text-align:center;
+}
+th
+{
+    text-align:center;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: black;
+}
+tr:nth-child(odd) td 
+{
+    background-color:white;
+}
+caption
+{
+    font-weight:bold;
+}
+
+#Login#Venditore label, input, textarea 
+{ 
+    color:black;
+    font-family: "Open Sans", Arial, sans-serif; /* Tipo di carattere per il testo */
+    margin: 10px 10px; /* Margini */   
+}
+label 
+{ 
+    display:inline-block;
+    height: 30px; /* Altezza di riga */
+    width: 300px; /* Larghezza */
+    padding:10px 10px
+}
+input
+{ 
+    display:inline-block;
+    background-color:white; /* Colore di sfondo */
+    border:1px solid red; /* Bordo */
+    color:black; /* Colore del testo */
+    height:15px; /* Altezza */
+    width:300px; /* Larghezza */
+    padding:10px 10px; /* Padding */
+} 
+textarea 
+{
+    display:inline-block;
+    background-color:white;
+    border:1px solid red;
+    color:black;
+    height: 15px;
+    width: 300px;
+    padding:10px 10px;
+}    
+
+a.pulsante
+{
+    height:30px;
+    width:150px;
+    display:block;
+    background-color:white;
+    color:red;
+    border-color:red;
+    text-decoration:none;
+    padding:10px;
+    margin:auto;
+    line-height:25px;
+    text-align:center;
+    font-family:"Open Sans", Arial, sans-serif;
+    font-weight:bold;
+    font-variant:small-caps;
+    font-size:20px;
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+}
